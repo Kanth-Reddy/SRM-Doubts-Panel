@@ -1,0 +1,71 @@
+/* MyDoubts.css */
+.my-doubts-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.my-doubts-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.doubts-list {
+  list-style: none;
+  padding: 0;
+}
+
+.doubt-item {
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.doubt-item:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.doubt-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.doubt-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.doubt-file {
+  color: #3b82f6;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.doubt-file:hover {
+  text-decoration: underline;
+}
+
+.no-doubts {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #777;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1.125rem;
+  margin-top: 2rem;
+}
+
+.error {
+  color: #ef4444;
+}

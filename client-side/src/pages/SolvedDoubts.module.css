@@ -1,0 +1,96 @@
+/* SolvedDoubts.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 2rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .noSolved {
+    font-size: 1.25rem;
+    color: #777;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .doubtCard {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .doubtCard h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .doubtCard p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .doubtCard h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .replyCard {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem auto;
+    text-align: left;
+    border-left: 4px solid #3b82f6;
+  }
+  
+  .replyCard p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .fileLink {
+    display: block;
+    margin-top: 0.5rem;
+    color: #3b82f6;
+    font-size: 0.875rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .fileLink:hover {
+    text-decoration: underline;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+  
+  .error {
+    color: #ef4444;
+  }
+  

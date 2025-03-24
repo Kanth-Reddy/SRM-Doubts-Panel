@@ -1,0 +1,94 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Carousel styling */
+  .carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure the carousel is behind the login box */
+  }
+  
+  .carousel-item {
+    height: 100vh;
+  }
+  
+  .carousel-item img {
+    object-fit: cover; /* Ensure the image covers the entire screen */
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Login box styling */
+  .login-box {
+    display: flex;
+    width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2; /* Ensure the login box is above the carousel */
+  }
+  
+  .login-left, .login-right {
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  .login-left {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .login-right {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .login-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+  .login-instructions {
+    font-size: 0.9rem;
+    color:black;
+    margin-top: 1rem;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #357abd;
+  }
+  
+  .login-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .error-message {
+    color: #ff6b6b;
+    margin-bottom: 1rem;
+  }
